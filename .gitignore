@@ -1,0 +1,19 @@
+# Временные файлы
+*.tmp
+*.log
+*.bak
+
+# IDE (IntelliJ, VS Code и т.д.)
+.idea/
+*.iml
+.vscode/
+out/
+target/
+bin/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Java
+*.class
