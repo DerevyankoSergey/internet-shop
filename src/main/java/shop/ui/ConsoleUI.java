@@ -6,7 +6,7 @@ import shop.service.ShopService;
 public class ConsoleUI {
     public static void main(String[] args) {
         ShopService shop = new ShopService();
-
+        System.out.println("=== МАГАЗИН v2 ===");
         Category electronics = new Category("Электроника");
         Category books = new Category("Книги");
 
