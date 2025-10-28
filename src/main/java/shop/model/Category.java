@@ -1,4 +1,4 @@
-﻿package shop.model;
+package shop.model;
 
 public class Category {
     private String name;

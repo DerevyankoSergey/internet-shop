@@ -1,4 +1,4 @@
-﻿package shop.ui;
+package shop.ui;
 
 import shop.model.*;
 import shop.service.ShopService;
@@ -6,12 +6,12 @@ import shop.service.ShopService;
 public class ConsoleUI {
     public static void main(String[] args) {
         ShopService shop = new ShopService();
-
+        System.out.println("=== МАГАЗИН v1 ===");
         Category electronics = new Category("Электроника");
         Category books = new Category("Книги");
 
         Product p1 = new Product("Смартфон", 30000, electronics);
-        Product p2 = new Product("Книга Java", 800, books);
+        Product p2 = new Product("Книга JAVA", 800, books);
         shop.addProduct(p1);
         shop.addProduct(p2);
 

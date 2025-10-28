@@ -1,4 +1,4 @@
-﻿package shop.service;
+package shop.service;
 
 import shop.model.*;
 import java.util.ArrayList;
